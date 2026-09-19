@@ -23,12 +23,13 @@ export const profile = {
   phone: "+91 9179233131",
   location: "Dist. Burhanpur, Madhya Pradesh, India",
   github: "https://github.com/mahajang214",
-  linkedin: "#",
-  resume: "/resume.pdf",
+  linkedin: "www.linkedin.com/in/gaurav-mahajan-6069b42b7",
+  resume: `${import.meta.env.BASE_URL}resume.pdf`,
   // Add more social links here whenever you want:
   socials: [
     { label: "GitHub", url: "https://github.com/mahajang214" },
-    { label: "LinkedIn", url: "#" },
+    { label: "LinkedIn", url: "www.linkedin.com/in/gaurav-mahajan-6069b42b7" },
+    { label:"Blue Team Labs CTF", url: "https://blueteamlabs.online/public/user/405b21a39516d3ab181d68" },
     // { label: "X", url: "https://x.com/..." },
     // { label: "Instagram", url: "https://instagram.com/..." },
   ],
@@ -327,6 +328,12 @@ export const certifications = [
     year: "",
     credential: "",
   },
+  {
+    name: "Data Analytics",
+    issuer: "Deloitte",
+    year: "",
+    credential: "",
+  },
 
   // EXAMPLE:
   /*
@@ -357,4 +364,20 @@ export const achievements = [
     link: "https://...",
   },
   */
+
+
+  {
+    title: "55+ Typing Speed ",
+    organization: "Typing.com",
+    year: "2026",
+    description: "Maintained a typing speed of 55+ words per minute through consistent practice.",
+  },
+  {
+    title: "621 Rank in India in Blue Team Labs CTF",
+    organization: "Blue Team Labs CTF",
+    year: "2026",
+    description: "Secured 621st rank in India in the Blue Team Labs CTF competition, demonstrating strong cybersecurity skills and problem-solving abilities.",
+    link: "  https://blueteamlabs.online/public/user/405b21a39516d3ab181d68",
+  }
+
 ];
