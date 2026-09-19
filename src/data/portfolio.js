@@ -24,7 +24,7 @@ export const profile = {
   location: "Dist. Burhanpur, Madhya Pradesh, India",
   github: "https://github.com/mahajang214",
   linkedin: "www.linkedin.com/in/gaurav-mahajan-6069b42b7",
-  resume: `${import.meta.env.BASE_URL}resume.pdf`,
+  resume: `${import.meta.env.BASE_URL}/resume.pdf`,
   // Add more social links here whenever you want:
   socials: [
     { label: "GitHub", url: "https://github.com/mahajang214" },
