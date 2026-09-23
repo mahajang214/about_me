@@ -27,9 +27,11 @@ export const profile = {
   resume: `${import.meta.env.BASE_URL}/resume.pdf`,
   // Add more social links here whenever you want:
   socials: [
-    { label: "GitHub", url: "https://github.com/mahajang214" },
-    { label: "LinkedIn", url: "www.linkedin.com/in/gaurav-mahajan-6069b42b7" },
+    { label:"GitHub", url: "https://github.com/mahajang214" },
+    { label:"Leetcode", url:"https://leetcode.com/u/GauravMahajan_137/"},
+    { label:"Hacker Rank", url:"https://www.hackerrank.com/profile/wwizard428"},
     { label:"Blue Team Labs CTF", url: "https://blueteamlabs.online/public/user/405b21a39516d3ab181d68" },
+    { label:"LinkedIn", url: "www.linkedin.com/in/gaurav-mahajan-6069b42b7" }
     // { label: "X", url: "https://x.com/..." },
     // { label: "Instagram", url: "https://instagram.com/..." },
   ],
@@ -57,6 +59,19 @@ export const experience = [
       "Support business strategy through data-driven observations.",
       "Manage accounting and cashier responsibilities.",
     ],
+  },
+   {
+    period: "FEB 2026 — MAY 2026",
+    company: "Unified Mentors",
+    role: "Web Development Internship",
+    location: "Remote",
+    description:"Worked on full-stack web applications using React, Node.js, Express.js, MongoDB, and REST APIs.",
+     highlights: [
+    "Developed the Carely elderly-care platform with role-based workflows for users, family members, patients, caregivers, and administrators.",
+    "Built caregiver discovery and booking features using location-based search, GeoJSON, service availability, and booking workflows.",
+    "Worked on the Helperly Maid & Nanny Service Management Platform with helper search, service selection, booking, tracking, reviews, complaints, and admin management.",
+    "Developed and integrated Node.js/Express REST APIs with MongoDB for authentication, users, services, bookings, notifications, and other application features.",
+  ],
   },
   {
     period: "SEP 2025 — MAY 2026",
@@ -243,15 +258,15 @@ export const skillGroups = [
   },
   {
     title: "Databases",
-    skills: ["MongoDB", "Mongoose", "Appwrite"],
+    skills: ["MongoDB", "Mongoose", "Appwrite", "PostgreSQL"],
   },
   {
     title: "Developer Tools",
-    skills: ["Git", "GitHub", "Postman", "VS Code", "Cursor", "Linux CLI", "Vercel", "Render"],
+    skills: ["Git", "GitHub", "Postman", "VS Code", "Cursor", "Linux CLI", "Vercel", "Render", "PGAdmin"],
   },
   {
     title: "Business & Accounting",
-    skills: ["Tally Prime", "Accounting", "Business Reports", "Data Analysis", "Consumer Behaviour"],
+    skills: ["Tally Prime", "Accounting", "Business Reports", "Data Analysis", "Consumer Behaviour", "Power BI"],
   },
 
   // EXAMPLE:
@@ -286,53 +301,59 @@ export const education = [
   Add a certification by copying one object.
 */
 export const certifications = [
+    {
+    name: "Tally Prime",
+    issuer: "MCCE",
+    year: "2025",
+    credential: "https://drive.google.com/file/d/1fxnfnjFpl98A_dRNMmhyS4iNvw2Sarfy/view?usp=drivesdk",
+  },
+   {
+    name: "Basic Computer Course",
+    issuer: "Matoshree Academy",
+    year: "2023",
+    credential: "",
+  },
+    {
+    name: "HTML",
+    issuer: "Great Learning",
+    year: "2023",
+    credential: "",
+  },
+   {
+    name: "CSS",
+    issuer: "Great Learning",
+    year: "2023",
+    credential: "https://drive.google.com/file/d/1ObV16SdAfWrskKyhqshZAHLxnYXmLLp8/view?usp=drivesdk",
+  },
+   {
+    name: "JavaScript",
+    issuer: "Great Learning",
+    year: "2023",
+    credential: "https://drive.google.com/file/d/1OtTTOMYvIw1Hw-KEuvvEcXR9O4UCCcWy/view?usp=drivesdk",
+  },
+    {
+    name: "Bootstrap",
+    issuer: "Great Learning",
+    year: "2023",
+    credential: "https://drive.google.com/file/d/1OelKoNVbhmP2msOkajujJMnzUjS_tCDY/view?usp=drivesdk",
+  },
   {
     name: "MERN Full Stack Web Development",
     issuer: "Sheriyans Coding School",
-    year: "",
-    credential: "",
+    year: "2026",
+    credential: "https://drive.google.com/file/d/1IVKLJw6nat06Bt2c2AZNRhO_N5Xz_cMZ/view?usp=drivesdk",
   },
-  {
-    name: "JavaScript",
-    issuer: "Great Learning",
-    year: "",
-    credential: "",
-  },
-  {
-    name: "HTML",
-    issuer: "Great Learning",
-    year: "",
-    credential: "",
-  },
-  {
-    name: "CSS",
-    issuer: "Great Learning",
-    year: "",
-    credential: "",
-  },
-  {
-    name: "Bootstrap",
-    issuer: "Great Learning",
-    year: "",
-    credential: "",
-  },
-  {
-    name: "Tally Prime",
-    issuer: "MCCE",
-    year: "",
-    credential: "",
-  },
-  {
-    name: "Basic Computer Course",
-    issuer: "Matoshree Academy",
-    year: "",
-    credential: "",
+    {
+    name: "Web Development Internship",
+    issuer: "Unified Mentors",
+    year: "2026",
+    credential: "https://drive.google.com/file/d/1oxAnVEAAIf1v1AztH_Zwi0vdKUZzheYk/view?usp=drivesdk",
   },
   {
     name: "Data Analytics",
     issuer: "Deloitte",
-    year: "",
-    credential: "",
+    year: "2026",
+    credential: "https://drive.google.com/file/d/1gf_7OIWV8BDsqX66WIWrQVnXDyPOGjZf/view?usp=drivesdk",
   },
 
   // EXAMPLE:
